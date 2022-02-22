@@ -1,10 +1,8 @@
 export const WORDS = [
   'wicked',
-  'lesmis',
-  'grease',
   'pippin',
+  'grease',
   'dancer',
-  'thewiz',
   'troupe',
   'disney',
   'strike',
