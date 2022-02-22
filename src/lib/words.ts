@@ -6,9 +6,10 @@ import { default as GraphemeSplitter } from 'grapheme-splitter'
 
 export const isWordInWordList = (word: string) => {
   return (
+    WORDS.includes(localeAwareLowerCase(word)) ||
+    VALID_GUESSES.includes(localeAwareLowerCase(word)) ||
     true
-    //WORDS.includes(localeAwareLowerCase(word)) ||
-    //VALID_GUESSES.includes(localeAwareLowerCase(word))
+
   )
 }
 
